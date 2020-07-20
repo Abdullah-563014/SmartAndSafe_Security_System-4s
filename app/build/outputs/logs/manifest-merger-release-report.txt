@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
+ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.karumi:dexter:6.2.1] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\f65cc296983990f6d65dd31d4fa44243\jetified-dexter-6.2.1\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\17f12f31e671a969b603fdd8a81feed8\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\396e7ddea1addefd32f4f3d87ec48909\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -52,20 +52,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Abdullah
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\59b723f090061559cc5b6f12f2aff3bc\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\ae891c337b2dc8d7a559b90a3711f662\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids:relinker:1.3.1] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\2db9192562678820bfb8611755cb5fcf\jetified-relinker-1.3.1\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
-INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-33:12
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:2:11-69
@@ -104,7 +104,7 @@ ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app
 	android:name
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:12:22-63
 application
-ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:14:5-31:19
+ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:14:5-39:19
 MERGED from [com.karumi:dexter:6.2.1] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\f65cc296983990f6d65dd31d4fa44243\jetified-dexter-6.2.1\AndroidManifest.xml:26:5-30:19
 MERGED from [com.karumi:dexter:6.2.1] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\f65cc296983990f6d65dd31d4fa44243\jetified-dexter-6.2.1\AndroidManifest.xml:26:5-30:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Abdullah\.gradle\caches\transforms-2\files-2.1\17f12f31e671a969b603fdd8a81feed8\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
@@ -138,7 +138,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ab
 	android:hardwareAccelerated
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:16:9-43
 	android:roundIcon
-		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:19:9-48
 	android:icon
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:17:9-43
 	android:allowBackup
@@ -167,6 +167,18 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:28:27-74
+receiver#advance.bike.security.system.myreceiver.SmsReceiver
+ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:33:9-38:20
+	android:enabled
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:34:13-35
+	android:name
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:33:19-57
+intent-filter#action:name:android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:35:13-37:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml:36:25-79
 uses-sdk
 INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\AndroidManifest.xml

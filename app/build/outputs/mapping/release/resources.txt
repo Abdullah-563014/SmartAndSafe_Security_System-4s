@@ -845,6 +845,7 @@ Referenced Strings:
   android.permission.READ_SMS
   android.permission.RECEIVE_SMS
   android.permission.SEND_SMS
+  android.provider.Telephony.SMS_RECEIVED
   android.resource
   android.resource://
   android.security.NetworkSecurityPolicy
@@ -855,6 +856,7 @@ Referenced Strings:
   android.speech.extra.LANGUAGE_MODEL
   android.speech.extra.MAX_RESULTS
   android.speech.extra.PROMPT
+  android.speech.extra.RESULTS
   android.speech.extra.RESULTS_PENDINGI...
   android.speech.extra.RESULTS_PENDINGI...
   android.support.PARENT_ACTIVITY
@@ -1136,6 +1138,7 @@ Referenced Strings:
   https:
   https://
   https://plus.google.com/
+  https://www.google.com
   i
   icon
   iconFade
@@ -1251,6 +1254,7 @@ Referenced Strings:
   paused
   pc_
   pcampaignid
+  pdus
   pending_intent
   performStopActivity
   permission_denied
@@ -3629,7 +3633,6 @@ layout:text_view_with_line_height_from_layout:2131427429 => [style:TestStyleWith
 layout:text_view_with_line_height_from_style:2131427430 => [style:TestStyleWithLineHeightAppearance:2131689775]
 layout:text_view_with_theme_line_height:2131427431 => [style:TestStyleWithThemeLineHeightAttribute:2131689776]
 mipmap:ic_launcher:2131492864 => [drawable:ic_launcher_background:2131165320, drawable:ic_launcher_foreground:2131165321]
-mipmap:ic_launcher_round:2131492865 => [drawable:ic_launcher_background:2131165320, drawable:ic_launcher_foreground:2131165321]
 
 The root reachable resources are:
 layout:notification_action:2131427406,
@@ -5266,7 +5269,6 @@ layout:notification_action:2131427406,
    styleable:TextInputEditText:-1,
    styleable:TextInputEditText_textInputLayoutFocusedRectEnabled:-1,
    mipmap:ic_launcher:2131492864,
-   mipmap:ic_launcher_round:2131492865,
    attr:android_textColorPrimary:-1,
    attr:android_textColorHint:-1,
    attr:android_textColorHighlight:-1,

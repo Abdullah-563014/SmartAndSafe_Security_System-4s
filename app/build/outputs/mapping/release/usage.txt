@@ -7463,6 +7463,8 @@ androidx.constraintlayout.widget.ConstraintLayout:
     public static final int DESIGN_INFO_ID
 androidx.transition.ChangeImageTransform$1
 androidx.drawerlayout.widget.DrawerLayout$LayoutParams
+advance.bike.security.system.myreceiver.SmsReceiver:
+    private static final java.lang.String SMS_RECEIVED
 androidx.print.PrintHelper
 androidx.activity.R$id
 androidx.appcompat.widget.ActivityChooserView$Callbacks
@@ -15431,7 +15433,6 @@ advance.bike.security.system.MainActivity:
     public final void initAllPermission()
     public final void initTextToSpeech()
     public final void makeCallToDeviceNumber(java.lang.String)
-    public final void vibrateCreation()
     public final void initAndRegisterBroadCastReceiver()
     public final void getAdminMessageFromDatabase()
     public final void checkMandatoryUpdate()
@@ -15860,6 +15861,8 @@ androidx.constraintlayout.widget.ConstraintLayout:
 com.google.android.gms.tasks.OnFailureListener
 okhttp3.internal.http.BridgeInterceptor:
     public final java.lang.String cookieHeader(java.util.List)
+advance.bike.security.system.myreceiver.SmsReceiver:
+    public final void showGoogleMap(android.content.Context,java.lang.String)
 com.google.firebase.database.snapshot.StringNode$1
 androidx.core.view.MarginLayoutParamsCompat
 pl.droidsonroids.relinker.elf.Section32Header
