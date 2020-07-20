@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/colorPrimaryDarkNight"
+                android:centerColor="@color/colorSurface"
+                android:endColor="@color/colorSurface"
+                android:type="linear"
+                android:angle="135"/>
+            <corners
+                android:radius="100dp"/>
+            <stroke
+                android:width="@dimen/_1sdp"
+                android:color="@color/primaryText"/>
+        </shape>
+    </item>
+
+
+    <item android:state_pressed="false" android:state_enabled="true" android:drawable="@drawable/button_background_shadow_effect"/>
+
+
+    <item android:state_pressed="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/colorAccentNight"
+                android:centerColor="@color/primaryText"
+                android:endColor="@color/colorGreen"
+                android:type="linear"
+                android:angle="135"/>
+            <corners
+                android:radius="100dp"/>
+            <stroke
+                android:width="@dimen/_1sdp"
+                android:color="@color/primaryText"/>
+        </shape>
+    </item>
+</selector>

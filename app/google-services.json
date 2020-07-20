@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "290052741917",
+    "firebase_url": "https://advancebikesecuritysystem.firebaseio.com",
+    "project_id": "advancebikesecuritysystem",
+    "storage_bucket": "advancebikesecuritysystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290052741917:android:51b32938413078257e9ff4",
+        "android_client_info": {
+          "package_name": "advance.bike.security.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290052741917-oji7tluit1vonnia2di3a2737dhnpn4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "advance.bike.security.system",
+            "certificate_hash": "065262da7eb877236eab9fcb1bae0a73c0d33018"
+          }
+        },
+        {
+          "client_id": "290052741917-6ou2k3fnsaukudlcal6slcsfbsl265fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiYfkM1-UbH2J0SO9kI8MKYrpXzANJne0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290052741917-6ou2k3fnsaukudlcal6slcsfbsl265fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

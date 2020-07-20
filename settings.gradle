@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Smart &amp; Safe Security System-4s"

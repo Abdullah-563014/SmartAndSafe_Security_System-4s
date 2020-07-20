@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDarkNight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/inputDeviceNumberAlertDialogDeviceNumberEditTextId"
+            android:background="@drawable/edit_text_background"
+            android:hint="Input your device number"
+            android:inputType="phone"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="@color/primaryText"
+            android:textColorHint="@color/primaryText"
+            android:layout_width="match_parent"
+            android:paddingStart="@dimen/_10sdp"
+            android:layout_height="@dimen/_40sdp"/>
+        <Button
+            android:id="@+id/inputDeviceNumberAlertDialogSaveButtonId"
+            style="@style/ButtonStyle"
+            android:text="Save"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

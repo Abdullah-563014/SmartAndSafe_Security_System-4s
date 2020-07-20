@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardBackgroundNight"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/mainActivityRadioGroupId"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <RadioButton
+            android:id="@+id/mainActivitySmsOptionRadioButtonId"
+            android:layout_width="@dimen/_100sdp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:checked="true"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:text="Sms Options"
+            android:textColor="@color/radio_flat_text_selector" />
+
+        <RadioButton
+            android:id="@+id/mainActivityCallOptionRadioButtonId"
+            android:gravity="center"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="match_parent"
+            android:background="@drawable/radio_flat_selector"
+            android:button="@android:color/transparent"
+            android:paddingLeft="@dimen/_16sdp"
+            android:paddingTop="@dimen/_3sdp"
+            android:paddingRight="@dimen/_16sdp"
+            android:paddingBottom="@dimen/_3sdp"
+            android:text="Call Options"
+            android:textColor="@color/radio_flat_text_selector" />
+
+    </RadioGroup>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainActivitySmsOptionRootLayoutId"
+        android:paddingTop="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@+id/mainActivityRadioGroupId"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/smsAndCallOptionRootLayoutId"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <!--sms options are started form here-->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/smsOptionRootLayoutId"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:visibility="visible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnOneId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityLockSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityUnLockSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Lock"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityUnLockSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityLockSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="UnLock"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column one end here-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnTwoId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnOneId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityStatusSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityLocationSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Status"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityLocationSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityStatusSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Location"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column two ended here-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnThreeId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnTwoId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityAlarmOffSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityAlarmOnSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Alarm Off"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityAlarmOnSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityAlarmOffSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Alarm On"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column three ended here-->
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnFourId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnThreeId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityRemoteOffSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityRemoteOnSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Remote Off"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityRemoteOnSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityRemoteOffSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Remote On"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column four ended here-->
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnFiveId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnFourId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityWhiteListOnSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityWhiteListOffSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="White List On"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityWhiteListOffSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityWhiteListOnSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="White List Off"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column five ended here-->
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnSixId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnFiveId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivitySensorLowSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivitySensorHighSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Sensor Low"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivitySensorHighSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivitySensorLowSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Sensor High"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column six ended here-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/smsRootLayoutColumnSevenId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/smsRootLayoutColumnSixId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityVibrationSensorOffSmsButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityVibrationSensorOnSmsButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Vibration Sensor Off"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityVibrationSensorOnSmsButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityVibrationSensorOffSmsButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Vibration Sensor On"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column seven are ended here-->
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <!--Sms option are ended here-->
+
+
+                    <!--Call options are started form here-->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/callOptionRootLayoutId"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/callRootLayoutColumnOneId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityLockCallButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityUnLockCallButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:elevation="10dp"
+                                android:text="Lock"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityUnLockCallButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityLockCallButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:elevation="10dp"
+                                android:text="UnLock"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column one end here-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/callRootLayoutColumnTwoId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/callRootLayoutColumnOneId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityStatusCallButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityLocationCallButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Status"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityLocationCallButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityStatusCallButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Location"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column two ended here-->
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/callRootLayoutColumnThreeId"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:layout_constraintTop_toBottomOf="@+id/callRootLayoutColumnTwoId"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:layout_height="0dp">
+                            <Button
+                                android:id="@+id/mainActivityAlarmOnCallButtonId"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/mainActivityAlarmOffCallButtonId"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Alarm On"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_3sdp"
+                                android:layout_marginEnd="@dimen/_1sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                            <Button
+                                android:id="@+id/mainActivityAlarmOffCallButtonId"
+                                app:layout_constraintStart_toEndOf="@+id/mainActivityAlarmOnCallButtonId"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintWidth_percent="0.45"
+                                android:textAllCaps="false"
+                                android:background="@drawable/button_background"
+                                android:layout_width="0dp"
+                                android:text="Alarm Off"
+                                android:textColor="@color/primaryText"
+                                android:textStyle="bold"
+                                android:layout_marginStart="@dimen/_1sdp"
+                                android:layout_marginEnd="@dimen/_3sdp"
+                                android:layout_height="@dimen/_30sdp"/>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                        <!--column three ended here-->
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <!--Call option are ended here-->
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <!--common function design started from here-->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/mainActivityVoiceCommandAndSettingRootLayoutId"
+                    app:layout_constraintTop_toBottomOf="@+id/smsAndCallOptionRootLayoutId"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_height="0dp">
+                    <Button
+                        android:id="@+id/mainActivitySettingButtonId"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/mainActivityVoiceCommandButtonId"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.45"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button_ripple_effect"
+                        android:layout_width="0dp"
+                        android:text="Setting"
+                        android:textColor="@color/colorAccentNight"
+                        android:textStyle="bold"
+                        android:layout_marginStart="@dimen/_3sdp"
+                        android:layout_marginEnd="@dimen/_1sdp"
+                        android:layout_height="@dimen/_30sdp"/>
+                    <Button
+                        android:id="@+id/mainActivityVoiceCommandButtonId"
+                        app:layout_constraintStart_toEndOf="@+id/mainActivitySettingButtonId"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintWidth_percent="0.45"
+                        android:textAllCaps="false"
+                        android:background="@drawable/button_ripple_effect"
+                        android:layout_width="0dp"
+                        android:text="Voice Command"
+                        android:textColor="@color/colorAccentNight"
+                        android:textStyle="bold"
+                        android:layout_marginStart="@dimen/_1sdp"
+                        android:layout_marginEnd="@dimen/_3sdp"
+                        android:layout_height="@dimen/_30sdp"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <!--some button's designed are ended here-->
+
+                <ImageView
+                    android:id="@+id/mainActivityAdminNoticeImageViewId"
+                    app:layout_constraintTop_toBottomOf="@id/mainActivityVoiceCommandAndSettingRootLayoutId"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:src="@drawable/email"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/admin_notice_image_view_background"
+                    android:layout_height="@dimen/_100sdp"/>
+                <!--admin notice image-view are ended here-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/mainActivityGifImageViewId"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/primaryText"
+        android:visibility="gone"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

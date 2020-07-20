@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorSurface"
+    android:gravity="center"
+    android:padding="@dimen/_30sdp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/loginActivityAboutNewPasswordTextViewId"
+        android:text="A new account will be created using this password. So please remember this password for next login."
+        android:textColor="@color/primaryText"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/loginActivityPasswordEditTextId"
+        android:background="@drawable/edit_text_background"
+        android:inputType="number"
+        android:hint="Input your password"
+        android:textColor="@color/primaryText"
+        android:textColorHint="@color/primaryText"
+        android:paddingStart="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"/>
+    <Button
+        android:id="@+id/loginActivityLoginButtonId"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

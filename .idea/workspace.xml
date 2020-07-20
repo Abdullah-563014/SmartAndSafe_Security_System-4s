@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="pixel_xl" />
+        <device id="pixel" />
+        <target>android-R</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86f359c8-a559-451f-8795-cfdb7c582ade" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="0123456789ABCDEF" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Advance Bike Security System" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Advance Bike Security System" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Advance Bike Security System" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\Android Studio\Mahmud Vai Dhaka\Jks Files\advance_security_bike_jks_file.jks" />
+    <option name="KEY_ALIAS" value="Abdullah" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ea0eSecdDbKmeCJBH22xUZRKPK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.100.100:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-19T14:03:45.478Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-1582820813">
+      <recent name="advance.bike.security.system" />
+    </key>
+    <key name="android.template.-1358167547">
+      <recent name="advance.bike.security.system" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\res\anim" />
+      <recent name="C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\res\drawable" />
+      <recent name="C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app\src\main\assets" />
+      <recent name="C:\Users\Abdullah\AndroidStudioProjects\AdvanceBikeSecuritySystem\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Advance Bike Security System-app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Advance Bike Security System-app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvanceBikeSecuritySystem [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AdvanceBikeSecuritySystem [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86f359c8-a559-451f-8795-cfdb7c582ade" name="Default Changelist" comment="" />
+      <created>1594544491136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594544491136</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="74" key="#Advance_Bike_Security_System-app" timestamp="1594820742915">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="519" y="74" key="#Advance_Bike_Security_System-app/0.0.1600.858@0.0.1600.858" timestamp="1594820742915" />
+    <state x="323" y="84" key="#PSD" timestamp="1595064668606">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="323" y="84" key="#PSD/0.0.1600.858@0.0.1600.858" timestamp="1595064668606" />
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1595158109971">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="605" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1600.858@0.0.1600.858" timestamp="1595158109971" />
+    <state x="535" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595228135258">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="535" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.858@0.0.1600.858" timestamp="1595228135258" />
+    <state x="380" y="184" key="AndroidCreateResourceDirectoryDialog" timestamp="1595158553112">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="380" y="184" key="AndroidCreateResourceDirectoryDialog/0.0.1600.858@0.0.1600.858" timestamp="1595158553112" />
+    <state x="380" y="184" key="AndroidCreateResourceFileDialog" timestamp="1595158738079">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="380" y="184" key="AndroidCreateResourceFileDialog/0.0.1600.858@0.0.1600.858" timestamp="1595158738079" />
+    <state x="580" y="156" key="FileChooserDialogImpl" timestamp="1595234702602">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="580" y="156" key="FileChooserDialogImpl/0.0.1600.858@0.0.1600.858" timestamp="1595234702602" />
+    <state x="626" y="322" key="Github.ShareDialog" timestamp="1594729754354">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="626" y="322" key="Github.ShareDialog/0.0.1600.858@0.0.1600.858" timestamp="1594729754354" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1595167633190">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.858@0.0.1600.858" timestamp="1595167633190" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1595167633190">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.858@0.0.1600.858" timestamp="1595167633190" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1595167633190">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.858@0.0.1600.858" timestamp="1595167633190" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1595167633190">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.858@0.0.1600.858" timestamp="1595167633190" />
+    <state x="616" y="207" key="chooseDestDirectoryDialog" timestamp="1595155374345">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="616" y="207" key="chooseDestDirectoryDialog/0.0.1600.858@0.0.1600.858" timestamp="1595155374345" />
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594888217913">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.858@0.0.1600.858" timestamp="1594888217913" />
+    <state x="431" y="126" width="737" height="606" key="find.popup" timestamp="1595171002913">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="431" y="126" width="737" height="606" key="find.popup/0.0.1600.858@0.0.1600.858" timestamp="1595171002913" />
+    <state x="325" y="172" key="psd.add.library.dependency.panel.dimension" timestamp="1594544639241">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="325" y="172" key="psd.add.library.dependency.panel.dimension/0.0.1600.858@0.0.1600.858" timestamp="1594544639241" />
+    <state x="506" y="57" key="refactoring.ChangeSignatureDialog" timestamp="1595222510873">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="506" y="57" key="refactoring.ChangeSignatureDialog/0.0.1600.858@0.0.1600.858" timestamp="1595222510873" />
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup" timestamp="1595169133323">
+      <screen x="0" y="0" width="1600" height="858" />
+    </state>
+    <state x="463" y="179" width="672" height="678" key="search.everywhere.popup/0.0.1600.858@0.0.1600.858" timestamp="1595169133323" />
+  </component>
+</project>
