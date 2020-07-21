@@ -43,7 +43,8 @@ public class SmsReceiver extends BroadcastReceiver {
 
 
     private void showGoogleMap(Context context, String url) {
-        String latAndLon = url.substring(37).trim();
+        int lastIndexOfForwardSplash=url.lastIndexOf("/");
+        String latAndLon=url.substring(lastIndexOfForwardSplash+1);
         try {
             Intent mapIntent = new Intent(android.content.Intent.ACTION_VIEW);
             mapIntent.setData(Uri.parse("geo:0,0?q=" + latAndLon));

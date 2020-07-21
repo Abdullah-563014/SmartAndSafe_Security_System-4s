@@ -6,14 +6,14 @@ public class Constants {
 
     public static String lockSmsCommand="Lock";
     public static String unLockSmsCommand="Unlock";
-    public static String alarmOffSmsCommand="silent";
-    public static String alarmOnSmsCommand="normal";
-    public static String statusSmsCommand="status";
-    public static String locationSmsCommand="location";
+    public static String alarmOffSmsCommand="Silent";
+    public static String alarmOnSmsCommand="Normal";
+    public static String statusSmsCommand="Status";
+    public static String locationSmsCommand="Location";
     public static String remoteOnSmsCommand="RF on";
     public static String remoteOffSmsCommand="RF off";
-    public static String whiteListOnSmsCommand="sim off";
-    public static String whiteListOffSmsCommand="sim on";
+    public static String whiteListOnSmsCommand="Sim off";
+    public static String whiteListOffSmsCommand="Sim on";
     public static String sensorHighSmsCommand="V high";
     public static String sensorLowSmsCommand="V low";
     public static String vibrationSensorOffSmsCommand="Vb off";
