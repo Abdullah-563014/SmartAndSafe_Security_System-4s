@@ -428,6 +428,7 @@ Referenced Strings:
   NewSubfileType
   Node
   NoopPersistenceManager
+  Normal
   Number
   O:
   OECF
@@ -575,12 +576,14 @@ Referenced Strings:
   Server
   Sharpness
   ShutterSpeedValue
+  Silent
   SmsOption
   Software
   SpatialFrequencyResponse
   SpectralSensitivity
   Spinner
   StaticFieldLeak
+  Status
   String
   StripByteCounts
   StripOffsets
@@ -1216,7 +1219,6 @@ Referenced Strings:
   nm
   no_index
   none
-  normal
   notice
   notification
   notify_manager
@@ -1342,7 +1344,6 @@ Referenced Strings:
   sha1/
   sha256/
   showsUserInterface
-  silent
   singleLine
   sk_
   sn
@@ -2635,7 +2636,6 @@ Marking styleable:TextAppearance_textAllCaps:-1 used because its prefix matches 
 Marking styleable:TextAppearance_textLocale:-1 used because its prefix matches string pool constant TextAppearance
 Marking style:TextAppearance_Compat:-1 used because its prefix matches string pool constant TextAppearance
 Marking style:TextAppearance:-1 used because its prefix matches string pool constant TextAppearance
-Marking id:normal:2131230960 used because its prefix matches string pool constant normal
 Marking styleable:View:-1 used because its prefix matches string pool constant View
 Marking styleable:View_android_theme:-1 used because its prefix matches string pool constant View
 Marking styleable:View_android_focusable:-1 used because its prefix matches string pool constant View
@@ -3762,7 +3762,6 @@ layout:notification_action:2131427406,
    id:icon_group:2131230872,
    id:message:2131230925,
    id:none:2131230959,
-   id:normal:2131230960,
    id:notification_background:2131230961,
    id:notification_main_column:2131230962,
    id:notification_main_column_container:2131230963,

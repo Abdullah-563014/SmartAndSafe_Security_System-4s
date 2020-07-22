@@ -17,17 +17,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f359c8-a559-451f-8795-cfdb7c582ade" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/myreceiver/SmsReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/myreceiver/SmsReceiver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/resources.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/resources.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/seeds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/seeds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/Constants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/myreceiver/SmsReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/myreceiver/SmsReceiver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="0123456789ABCDEF" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.100.101:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -308,22 +322,22 @@
       <screen x="0" y="0" width="1600" height="858" />
     </state>
     <state x="626" y="322" key="Github.ShareDialog/0.0.1600.858@0.0.1600.858" timestamp="1595237640292" />
-    <state width="1557" height="245" key="GridCell.Tab.0.bottom" timestamp="1595346626394">
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1595394563090">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state width="1557" height="245" key="GridCell.Tab.0.bottom/0.0.1600.858@0.0.1600.858" timestamp="1595346626394" />
-    <state width="1557" height="245" key="GridCell.Tab.0.center" timestamp="1595346626393">
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1600.858@0.0.1600.858" timestamp="1595394563090" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1595394563090">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state width="1557" height="245" key="GridCell.Tab.0.center/0.0.1600.858@0.0.1600.858" timestamp="1595346626393" />
-    <state width="1557" height="245" key="GridCell.Tab.0.left" timestamp="1595346626392">
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1600.858@0.0.1600.858" timestamp="1595394563090" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1595394563089">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state width="1557" height="245" key="GridCell.Tab.0.left/0.0.1600.858@0.0.1600.858" timestamp="1595346626392" />
-    <state width="1557" height="245" key="GridCell.Tab.0.right" timestamp="1595346626393">
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1600.858@0.0.1600.858" timestamp="1595394563089" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1595394563090">
       <screen x="0" y="0" width="1600" height="858" />
     </state>
-    <state width="1557" height="245" key="GridCell.Tab.0.right/0.0.1600.858@0.0.1600.858" timestamp="1595346626393" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1600.858@0.0.1600.858" timestamp="1595394563090" />
     <state x="616" y="207" key="chooseDestDirectoryDialog" timestamp="1595155374345">
       <screen x="0" y="0" width="1600" height="858" />
     </state>

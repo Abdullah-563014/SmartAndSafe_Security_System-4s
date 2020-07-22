@@ -103,7 +103,6 @@ Referenced Strings:
   API_UNAVAILABLE
   API_VERSION_UPDATE_REQUIRED
   ATTACH
-  Abdullah
   AckUserWrite
   ActivityRecreator
   Age

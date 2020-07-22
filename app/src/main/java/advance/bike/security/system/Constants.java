@@ -9,7 +9,7 @@ public class Constants {
     public static String alarmOffSmsCommand="Silent";
     public static String alarmOnSmsCommand="Normal";
     public static String statusSmsCommand="Status";
-    public static String locationSmsCommand="Location";
+    public static String locationSmsCommand="Find";
     public static String remoteOnSmsCommand="RF on";
     public static String remoteOffSmsCommand="RF off";
     public static String whiteListOnSmsCommand="Sim off";
