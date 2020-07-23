@@ -22,7 +22,7 @@ public class Constants {
 
 
     public static String lockCallingCommand="*";
-    public static String unlockCallingCommand="#";
+    public static String unlockCallingCommand="%23";
     public static String alarmOffCallingCommand="1";
     public static String alarmOnCallingCommand="3";
     public static String statusCallingCommand="0";

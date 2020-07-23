@@ -28,20 +28,18 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/myreceiver/SmsReceiver.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/advance/bike/security/system/myreceiver/SmsReceiver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/resources.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/resources.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/mapping/release/seeds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/mapping/release/seeds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/advance/bike/security/system/LoginActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.100.101:5555" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_Edited_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
