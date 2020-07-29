@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     private ConstraintLayout smsOptionRootLayout, callOptionRootLayout;
     private ImageView adminNoticeImageView;
     private GifImageView gifImageView;
-    private Button lockSmsButton, unLockSmsButton, alarmOffSmsButton, alarmOnSmsButton, statusSmsButton, locationSmsButton, remoteOnSmsButton, remoteOffSmsButton, whiteListOnSmsButton, whiteListOffSmsButton, sensorHighSmsButton, sensorLowSmsButton, vibrationSensorOffButton, vibrationSensorOnButton, lockCallButton, unLockCallButton, alarmOffCallButton, alarmOnCallButton, statusCallButton, locationCallButton, settingButton, voiceCommandButton;
+    private Button lockSmsButton, unLockSmsButton, alarmOffSmsButton, alarmOnSmsButton, statusSmsButton, locationSmsButton, remoteOnSmsButton, remoteOffSmsButton, whiteListOnSmsButton, whiteListOffSmsButton, sensorHighSmsButton, sensorLowSmsButton, autoLockSmsButton, manualLockSmsButton, lockCallButton, unLockCallButton, alarmOffCallButton, alarmOnCallButton, statusCallButton, locationCallButton, settingButton, voiceCommandButton;
     private AdminNoticeModel adminNoticeModel;
     private PendingIntent sentPI, deliveredPI;
     private TextToSpeech textToSpeech;
@@ -112,8 +112,8 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         whiteListOffSmsButton = findViewById(R.id.mainActivityWhiteListOffSmsButtonId);
         sensorHighSmsButton = findViewById(R.id.mainActivitySensorHighSmsButtonId);
         sensorLowSmsButton = findViewById(R.id.mainActivitySensorLowSmsButtonId);
-        vibrationSensorOffButton = findViewById(R.id.mainActivityVibrationSensorOffSmsButtonId);
-        vibrationSensorOnButton = findViewById(R.id.mainActivityVibrationSensorOnSmsButtonId);
+        manualLockSmsButton = findViewById(R.id.mainActivityManualLockSmsButtonId);
+        autoLockSmsButton = findViewById(R.id.mainActivityAutoLockSmsButtonId);
         lockCallButton = findViewById(R.id.mainActivityLockCallButtonId);
         unLockCallButton = findViewById(R.id.mainActivityUnLockCallButtonId);
         alarmOffCallButton = findViewById(R.id.mainActivityAlarmOffCallButtonId);
@@ -140,8 +140,8 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         whiteListOffSmsButton.setOnClickListener(this);
         sensorHighSmsButton.setOnClickListener(this);
         sensorLowSmsButton.setOnClickListener(this);
-        vibrationSensorOffButton.setOnClickListener(this);
-        vibrationSensorOnButton.setOnClickListener(this);
+        manualLockSmsButton.setOnClickListener(this);
+        autoLockSmsButton.setOnClickListener(this);
         lockCallButton.setOnClickListener(this);
         unLockCallButton.setOnClickListener(this);
         alarmOffCallButton.setOnClickListener(this);
@@ -519,12 +519,12 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 startSmsOperation(Constants.sensorLowSmsCommand, "sensor low");
                 break;
 
-            case R.id.mainActivityVibrationSensorOffSmsButtonId:
-                startSmsOperation(Constants.vibrationSensorOffSmsCommand, "vibration sensor off");
+            case R.id.mainActivityManualLockSmsButtonId:
+                startSmsOperation(Constants.manualLockSmsCommand, "manual lock");
                 break;
 
-            case R.id.mainActivityVibrationSensorOnSmsButtonId:
-                startSmsOperation(Constants.vibrationSensorOnSmsCommand, "vibration sensor on");
+            case R.id.mainActivityAutoLockSmsButtonId:
+                startSmsOperation(Constants.autoLockSmsCommand, "auto lock");
                 break;
 
             case R.id.mainActivityLockCallButtonId:
@@ -608,10 +608,10 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                         startSmsOperation(Constants.sensorLowSmsCommand,"ok, trying to low your bike sensor");
                     }else if (value.contains("sensor high") || value.contains("sensor hi")) {
                         startSmsOperation(Constants.sensorHighSmsCommand,"ok, trying to high your bike sensor");
-                    }else if (value.contains("vibration sensor on") || value.contains("vibration sensor one")) {
-                        startSmsOperation(Constants.vibrationSensorOnSmsCommand,"ok, trying to turn on your bike vibration sensor");
-                    }else if (value.contains("vibration sensor off") || value.contains("vibration sensor of")) {
-                        startSmsOperation(Constants.vibrationSensorOffSmsCommand,"ok, trying to turn off your bike vibration sensor");
+                    }else if (value.contains("manual lock")) {
+                        startSmsOperation(Constants.manualLockSmsCommand,"ok, trying to turn on manual lock");
+                    }else if (value.contains("auto lock")) {
+                        startSmsOperation(Constants.autoLockSmsCommand,"ok, trying to turn on auto lock");
                     }
                 }
             } else {

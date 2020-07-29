@@ -16,8 +16,8 @@ public class Constants {
     public static String whiteListOffSmsCommand="Sim on";
     public static String sensorHighSmsCommand="V high";
     public static String sensorLowSmsCommand="V low";
-    public static String vibrationSensorOffSmsCommand="Vb off";
-    public static String vibrationSensorOnSmsCommand="Vb on";
+    public static String manualLockSmsCommand="Manual";
+    public static String autoLockSmsCommand="Auto";
 
 
 
