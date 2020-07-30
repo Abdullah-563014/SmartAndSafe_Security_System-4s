@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.0.88
 # min_api: 19
-# pg_map_id: c9643a4
+# pg_map_id: e05c71f
 # common_typos_disable
 advance.bike.security.system.LoginActivity -> advance.bike.security.system.LoginActivity:
     android.widget.EditText passwordEditText -> t
@@ -29,7 +29,7 @@ advance.bike.security.system.MainActivity -> advance.bike.security.system.MainAc
     android.widget.Button whiteListOffSmsButton -> H
     android.content.BroadcastReceiver sendBroadCastReceiver -> Y
     android.widget.Button remoteOffSmsButton -> F
-    android.widget.Button vibrationSensorOnButton -> L
+    android.widget.Button manualLockSmsButton -> L
     android.widget.Button sensorLowSmsButton -> J
     android.speech.tts.TextToSpeech textToSpeech -> X
     android.app.PendingIntent deliveredPI -> W
@@ -49,7 +49,7 @@ advance.bike.security.system.MainActivity -> advance.bike.security.system.MainAc
     android.widget.Button whiteListOnSmsButton -> G
     android.content.BroadcastReceiver deliveredBroadCastReceiver -> Z
     android.widget.Button lockCallButton -> M
-    android.widget.Button vibrationSensorOffButton -> K
+    android.widget.Button autoLockSmsButton -> K
     android.widget.Button alarmOffSmsButton -> A
     android.widget.Button remoteOnSmsButton -> E
     pl.droidsonroids.gif.GifImageView gifImageView -> x
